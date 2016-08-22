@@ -1,0 +1,384 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	background-image: url("images/layer2.png"); 	
+	background-repeat: no-repeat;
+}
+
+header{
+	width: 1600px;	
+	background-color: #7164af;
+	font-size: 13px;
+	font-weight: bold;	
+}
+ul{
+	width: 946px;
+	height: 53px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+
+}
+li{		
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;	
+	
+}
+
+li a{
+	color: white;	
+	line-height: 4.2;
+	text-decoration: none;
+	
+}
+
+.banner{
+	display: block;
+	width: 1600px;
+	height: 738px;
+	margin: 0 auto;
+	
+} 
+.logo{
+	display: block;
+	position: absolute;
+	width: 146px;
+	height: 146px;	
+	background-image: url("images/logo.png");
+	background-repeat: no-repeat;
+	margin-left: 23%;
+	margin-top: 6.8%;
+}
+.banner .squares{
+	position: relative;
+	float: right;
+	margin-right: 317px;
+	margin-top: 39px;
+	
+}
+.row{
+	width: 964px;
+	height: 230px;
+	margin: 10px auto; 
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.small_square{
+	width: 230px;
+	height: 230px;
+	
+}
+.big_square{
+	width: 475px;
+	height: 230px;
+		
+}
+.big_square .name{
+	display: block;
+	width: 475px;
+	height: 230px;
+	
+}
+.big_square .name h1{
+	width: 470px;
+	letter-spacing: 0.038ex;
+	color: #096caf;
+	font-weight: bold;
+	font-size: 28px;
+	margin-top: 6px;
+	
+		
+}
+.big_square .name p span{
+	float: right;
+	margin-right: 10px;
+	margin-top: -4px;
+	font-family: 'Lora',sans-serif;
+	font-style: italic;
+	
+	font-size: 20px;
+	font-weight: bold;
+	color: #17bc67;
+	letter-spacing: 0.08ex;
+	
+}
+.big_square .name p{
+	width: 470px;
+	float: left;
+	text-align: left;
+	font-size: 14px;
+	line-height: 2.07;
+	font-weight: bold;
+	color: #02253d;
+	letter-spacing: 0.001ex;
+	margin-bottom: 15px;
+	
+
+}
+.admission{
+	width: 230px;
+	height: 230px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	background-image: url("images/backadmission.png");
+	line-height: 75%;
+
+}
+.small_square .admission h2{
+	font-weight: bold;
+	color: #096caf;
+	letter-spacing: 0.03ex;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+.admission p span{
+	position: relative;
+	color: white;
+	font-weight: bold;
+	font-size: 42px;
+	letter-spacing: 0.07ex;
+
+}
+.admission p{
+	color: #096caf;
+	font-weight: bold;
+	font-size: 24px;
+	letter-spacing: 0.07ex;
+	
+	
+
+}
+.admission button{
+	display: block;
+	width: 124px;
+	height: 40px;
+	border-radius: 20px;
+	border: 1px solid white;
+	color: white;
+	background-color: #71bcef;
+	font-weight: bold;	
+	letter-spacing: 0.06ex;
+}
+.admission a{
+	font-size: 18px;
+	font-style: italic;
+	color: #096caf;
+
+	
+}
+.admission .last_line{
+	margin-bottom: 14px;
+	font-style: italic;
+	font-size: 18px;
+	letter-spacing: 0.06ex;
+}
+.faculty_of, .general_medicine, .pharmacy, .stomatology{
+	width: 230px;
+	height: 230px;	
+}
+.general_medicine h3, .pharmacy h3, .stomatology h3{
+	text-align: center;
+	padding-top: 24px;
+
+}
+
+.faculty_of button{
+	display: block;
+	width: 124px;
+	height: 38px;
+	border-radius: 19px;
+	border: 1px solid white;
+	color: white;
+	background-color: #3ad183;
+	font-weight: bold;	
+	letter-spacing: 0.06ex;
+	float: right;
+	
+}
+.faculty_of button:hover{
+	transform: scaleX(0.9); 
+	color: gray;
+}
+.general_medicine{
+	background-color: #3ad183;
+	color: #0a8b48;
+}
+.general_medicine img{
+	margin-top: 22px;
+	margin-left: 23px;
+}
+.general_medicine button{
+	background-color: #3ad183;
+	margin-right: 16px;
+	margin-top: 93px;
+}
+.pharmacy{
+	background-color: #897fd2;
+	color: #584dad;
+}
+.pharmacy img{
+	margin-top: 20px;
+	margin-left: 32px;
+}
+.pharmacy button{
+	background-color: #897fd2;
+	margin-right: 18px;
+	margin-top: 6px;
+}
+
+.stomatology{
+	background-color:#ff8a34; 
+	color: #c14000;
+}
+.stomatology button{
+	background-color:#ff8a34;
+	margin-right: 16px;
+	margin-top: 93px;
+}
+.stomatology img{
+	margin-top: 24px;
+	margin-left: 29px;
+}
+.stomatology .faculty_tittle{
+	margin-left: 12px;
+}
+
+.faculty_tittle{
+	color: white;
+	font-weight: bold;
+	font-family: 'Lora',sans-serif;
+	font-style: italic;
+	font-size: 24px;
+	text-align: center;
+}
+.about > h2{
+	margin-left: 250px;
+	margin-top: 54px;
+	font-size: 30px;
+	text-align: center;
+	letter-spacing: 0.01ex;
+	color: #096caf;
+}
+
+#container{
+	position: relative;
+	margin: 34px 309px;
+	height: 338px;
+	width: 986px; 
+	overflow: hidden;
+}
+ 
+ 
+#container .slide{
+	position: absolute;
+	top: 0px;
+	height: 335px;
+	width: 320px;
+	cursor: pointer;
+	overflow: hidden;
+	
+}
+ 
+#carouselLeft{
+	position: relative;
+	margin-left: 765px;
+	cursor: pointer;	
+}
+
+#carouselRight{
+	position: relative;
+	cursor: pointer;
+	
+}
+.slide .img_slide{
+	width: 279px;
+	height: 190px;
+	margin-top: 0px;
+	margin-left: 20px;
+	
+	
+}
+.img_slide img{
+	width: 279px;
+	height: 190px;
+	overflow: inherit;
+}
+.img_slide .flaglearnmore{
+	position: absolute;
+	width: 135px;
+	height: 25px;
+	top: 157px; 
+	background-image: url("images/flaglearnmore.png");
+	color: white;
+	padding-top: 8px;
+	font-size: 13px;
+	font-weight: bold;
+}
+.slide h4{
+	text-align: center;
+	margin-top: 16px;
+	font-size: 15px;
+	color: #096caf;
+}
+.slide p{
+	display: block;
+	margin-top: 10px;
+	margin-left: 40px;
+	width: 250px;
+	font-size:13px;
+	font-weight: bold;
+	line-height: 180%;
+}
+@media only screen and (min-width: 959px) and (max-width: 1024px){
+	.wrapper{
+		width: 95%;
+
+	}
+	.logo{
+		margin-left: 312px;
+		margin-top: 8.6%;
+	}
+
+}
+@media only screen and (min-width: 768px) and (max-width: 959px){
+	.wrapper{
+		width: 80%;
+	}
+	.logo{
+		margin-left: 310px;
+		margin-top: 11%;
+	}
+	.about h2{
+		display: block;
+		width: 590px;
+		height: 35px;
+		margin-left: 470px;
+	}
+	#carouselLeft, #carouselRight{
+		display: none;	
+	}
+
+	
+}
+@media only screen and (min-width: 480px) and (max-width: 767px){
+	header{
+		width: 480px;
+	}
+}
